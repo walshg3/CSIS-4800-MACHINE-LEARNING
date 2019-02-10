@@ -1,0 +1,33 @@
+Types of Machine Learning
+
+Supervised Learning:
+    Labeled data
+    Direct Feedback
+    Predict outcome/future
+
+Unsupervised Learning:
+    No labels 
+    No Feedback
+    Find hidden structure in data
+
+Reinforcement Learning 
+    Devision Process
+    Reward System
+    Learn series of actions
+
+Linear Regression
+
+    Given a predictor variable x and a response variable y
+    we fit a straight line to this data that minimizes 
+    the distance-most commonly the average squared distance-between
+    the sample points and the fitted line. 
+
+    The line can be used to predict the outcome of new data.
+
+Finding subgroups with clustering:
+
+    Clustering - allows organization of a pile of information
+    into meaningful subgroups (clusters) without having any prior
+    knowledge of their group memberships. Clustering is sometimes called
+    Unsupervised classification. 
+
