@@ -1,4 +1,8 @@
+https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition
+
 Types of Machine Learning
+
+
 
 Supervised Learning:
     Labeled data
