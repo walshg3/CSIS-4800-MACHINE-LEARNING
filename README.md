@@ -10,4 +10,5 @@ This Repo is for an independent study I had the opportunity to take part it my f
 ## Dependencies 
 
 For this course I am using [Python] (https://www.python.org/) and [Anaconda](https://www.anaconda.com/)
+Anaconda will install most of the dependencies needed for Machine Learning and any additional Libraries I use will be mentioned in each of the files when needed. 
   
