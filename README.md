@@ -1,6 +1,6 @@
 # CSIS-4800-MACHINE-LEARNING 
 
-This Repo is for an independent study I had the opportunity to take part it my final semester during undergrad. The study was to learn the field of Machine Learning at my own pace throughout the Semester. I used a variety of resources and textbooks to gain more knowledge on the topic. I will link all sources I used and give proper credit as work is uploaded. So far a list of resources used are:
+This Repo is for an independent study I had the opportunity to take part in during my final semester of undergrad. The study was to learn the field of Machine Learning at my own pace throughout the Semester. I used a variety of online courses and textbooks to gain more knowledge on the topic. I will link all sources I used and give proper credit as work is uploaded. So far a list of resources used are:
 
 - [Machine Learning A-Z™: Hands-On Python & R In Data Science](https://www.udemy.com/machinelearning/)
 - [Google Developers Machine Learning Recipes with Josh Gordon](https://goo.gl/KewA03) 
