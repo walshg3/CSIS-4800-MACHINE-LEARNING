@@ -80,4 +80,63 @@ Episode 2:
         Every question a Tree asks must be about your Features. That means the better your features are, the better a tree you can build. 
         
 
+Episode 3:
+
+    What makes a Good Feature?
+
+    Some features are good like height or weight but you usually need multiple features to properly predict. 
+    Avoid useless features and independent. If you have Height in inches you dont need height in centimeters
+
+    Ideal features are:
+        informative
+        independent
+        simple
+
+Episode 4:
+
+    Machine Learning pipelines
+    - scikit-learn has a handy function for splitting data sets into a training and a testing set
+    - it's sklearn.model_selection.train_test_split(data_set_features,data_set_labels,test_fraction)
+    - this function will return 1) training_features 2) testing_features 3) training_labels and 4) testing_labels
+    - i.e. it returns a tuple of 4 elements
+    - note, the test_fraction argument specifies the fraction of the data you want to use for testing
+    - so if you put 0.5, it means you want to use half the data for testing (and the other half for training obviously)
+
+    - recall that the .predict() method returns a list of predictions for the list of examples you pass it
+    - you can use sklearn.metrics.accuracy_score(test_labels,predicted_labels) to compare two list of labels essentially
+
+    - supervised learning is also known as function approximation because ultimately what you are doing is finding a function that matches your training examples well
+    - you start with some general form of the function (e.g. y = mx+b) and then you tune the parameters such that it best describes your training examples (i.e. change m and b until you get a line that best splits your data)
+
+    Key thing to take away from the video:
+    Supervised learning is just function approximation. You start with a general function and then tweak the parameters of the function based on your training examples until your function describes the training data well.﻿
+
+        
+    Features = Label    
+    F(x)        y 
+
+    One way to think of learning is using training data to adjust the parameters of a model
+    playground.tensorflow.org
+
+Episode 5:
+    Writing Classifier from scratch
+
+    Creating K Nearest Neighbors with the pipeline.py program.
+    Algorithm info from sklearn here:
+    https://scikit-learn.org/stable/modules/neighbors.html
+
+    K Nearest Neighbors tests the distance to the closest neighbor to classify the unknown data.
+    If there is equidistance between both red and green sides the k = # of neighbors to consider.
+    If k was 1 then it would look at the closest neighbor.
+    If k was 3 then it would look at the 3 closest neighbors and make the decision from there. 
+
+    Implementation:
+
+    1. Find the nearest Straightline Distance:
+        Will use the Eulidean Distance by measuring distance between two points and uses the formula found in formula.png
+        Distance is in 2D space with 2 features but with 3 it will be in 3D or 4D. This is hard to visualize but ED will work perfect regardless. 
+
+
+
+
     
